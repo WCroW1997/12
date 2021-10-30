@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body{
+    color: #697a79;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(219, 218, 218);
+    background-image: 
+    url('/img/orange-circle-background.png'),
+     url('/img/triangle_PNG18.png');
+    background-repeat: no-repeat;
+    background-size: 300px, 300px, 100%;
+    background-position: bottom -150px left -100px, top -50px right -170px;
+}
+
+.main{
+    width: 90vw;
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.left{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    line-height: 2;
+    padding: 2rem 1rem;
+    flex-grow: 2;
+}
+
+h2{
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    margin: 1rem 1rem;
+}
+
+
+.social-icon{
+    display: inline-block;
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #697a79;
+}
+
+p{
+    margin: 1rem 0;
+    /* max-width: 300px; */
+    width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+}
+
+input{
+    margin: 0.5rem 0;
+    width: 300px;
+    padding: 1rem 0.75rem;
+    background: #F0F4F3;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.help{
+    border-bottom: 1px dashed #697a79;
+}
+
+.left-btn{
+    background: #3AB19B;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    padding: 0.85rem 2.75rem;
+    margin: 2rem 0;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.left-btn:hover{
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.36);
+}
